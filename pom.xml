@@ -85,8 +85,9 @@
                     <properties>
                         <configurationParameters>
                             cucumber.junit-platform.naming-strategy=long
-
+<!--
                             cucumber.filter.tags=@pomXmlTag
+-->
 
                         </configurationParameters>
                     </properties>
