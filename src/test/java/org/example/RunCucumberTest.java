@@ -13,7 +13,7 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 //@SelectClasspathResource("features")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
 //@IncludeTags("runnerClassTag") // do not write @ in front of this
-//@ConfigurationParameter(key = "cucumber.filter.tags", value = "@runnerClassTag")
+@ConfigurationParameter(key = "cucumber.filter.tags", value = "@runnerClassTag")
 //@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "io.login.step_definitions")
 
 public class RunCucumberTest {
