@@ -53,7 +53,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
-                    <skip>true</skip>
+                    <systemPropertyVariables>
+                        <!--
+                        <cucumber.filter.tags>@pomXmlTag</cucumber.filter.tags>
+                        -->
+                    </systemPropertyVariables>
+
                 </configuration>
             </plugin>
             <plugin>

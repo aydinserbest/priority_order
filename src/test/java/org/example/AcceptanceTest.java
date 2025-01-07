@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features"
        // tags = "@jvmTag"
 )
-public class AcceptanceTestSuite {
+public class AcceptanceTest {
 
 }
