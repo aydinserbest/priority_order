@@ -1,6 +1,6 @@
 Feature: Library Management
 
-  @runnerClassTag
+  @runnerClassTag @secondTag
   Scenario: User selects a book
     Given the selected book is "To Kill a Mockingbird" by Harper Lee
 
