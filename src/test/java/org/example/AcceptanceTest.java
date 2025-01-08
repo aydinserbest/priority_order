@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = "src/test/resources/features",
-        tags = "@runnerClassTag"
+        features = "src/test/resources/features"
+        //tags = "@runnerClassTag"
 )
 public class AcceptanceTest {
 
