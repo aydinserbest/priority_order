@@ -55,8 +55,10 @@
                 <configuration>
 
                     <systemPropertyVariables>
-
+<!--
                         <cucumber.filter.tags>@pomXmlTag</cucumber.filter.tags>
+-->
+
 
                     </systemPropertyVariables>
 
